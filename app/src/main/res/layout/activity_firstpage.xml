@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrd1"
+    tools:context=".firstpageActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/pic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="310dp"
+        android:text="Pocket Guide"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb"
+        android:layout_marginTop="500dp"
+        />
+
+
+</RelativeLayout>

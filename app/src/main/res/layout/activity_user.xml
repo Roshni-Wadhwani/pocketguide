@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrd"
+    tools:context=".user">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/users" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:layout_marginTop="220dp"
+            android:text="User" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="270dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="Admin" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
